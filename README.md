@@ -23,3 +23,13 @@ How to deploy and inspect workloads (kubectl apply, kubectl get pods, kubectl de
 How applications run inside Kubernetes compared to running directly with Docker
 
 This deployment will be a foundation for building more advanced Kubernetes objects such as Deployments, ReplicaSets, and Services.
+
+## Pod Structure - For Reference
+
+Pod (root)
+├── metadata (branch)
+│   ├── name (leaf)
+│   └── labels (leaf)
+└── spec (branch)
+    └── containers (branch)
+        └── - name, image, ports (leaves)
