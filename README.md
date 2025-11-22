@@ -26,10 +26,10 @@ This deployment will be a foundation for building more advanced Kubernetes objec
 
 ## Pod Structure - For Reference
 
-Pod (root)
+Pod (root)  
 ├── metadata (branch)  
-│   ├── name (leaf)  
-│   └── labels (leaf)  
+  │   ├── name (leaf)  
+  │   └── labels (leaf)  
 └── spec (branch)  
-    └── containers (branch)  
-        └── - name, image, ports (leaves)  
+      └── containers (branch)  
+          └── - name, image, ports (leaves)  
